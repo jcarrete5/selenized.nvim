@@ -26,7 +26,7 @@ local colors = {
 return {
   normal = {
     a = { fg = colors.bg_0, bg = colors.blue, gui = 'bold' },
-    b = { fg = colors.bg_0, bg = colors.fg_0 },
+    b = { fg = colors.fg_1, bg = colors.bg_2 },
     c = { fg = colors.fg_0, bg = colors.bg_1 },
   },
   insert = {
@@ -40,7 +40,7 @@ return {
   },
   inactive = {
     a = { fg = colors.fg_0, bg = colors.bg_1, gui = 'bold' },
-    b = { fg = colors.bg_0, bg = colors.dim_0 },
+    b = { fg = colors.bg_0, bg = colors.bg_2 },
     c = { fg = colors.dim_0, bg = colors.bg_1 },
   },
 }
